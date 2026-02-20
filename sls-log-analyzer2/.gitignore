@@ -1,0 +1,32 @@
+# Node
+node_modules/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Environment
+.env
+.env*.local
+.vscode/
+
+# IDEs and Editors
+.idea/
+.DS_Store
+*.sublime-*
+
+# Backend specific
+/backend/uploads/
+/backend/database/*.sqlite
+/backend/database/*.sqlite-journal
+
+# Frontend specific
+/frontend/dist/
+/frontend/build/
+
+# OpenClaw specific
+.openclaw/

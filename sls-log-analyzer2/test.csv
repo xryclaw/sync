@@ -1,0 +1,12 @@
+uid,sid,level,event_name,_datetime_,store,packVer,clientVer,resp
+user1,sessionA,info,login,2026-02-15T08:00:00Z,storeX,1.0.0,1.0.0,user logged in
+user1,sessionA,info,click_button,2026-02-15T08:00:10Z,storeX,1.0.0,1.0.0,clicked start button
+user1,sessionA,info,navigate_page,2026-02-15T08:00:25Z,storeX,1.0.0,1.0.0,navigated to main page
+user1,sessionA,error,bug_encountered,2026-02-15T08:00:40Z,storeX,1.0.0,1.0.0,application crashed
+user2,sessionB,info,login,2026-02-15T08:01:00Z,storeY,1.0.1,1.0.1,user logged in
+user2,sessionB,info,view_item,2026-02-15T08:01:15Z,storeY,1.0.1,1.0.1,viewed product 123
+user2,sessionB,info,add_to_cart,2026-02-15T08:01:30Z,storeY,1.0.1,1.0.1,added product to cart
+user1,sessionA,info,relaunch_app,2026-02-15T08:02:00Z,storeX,1.0.0,1.0.0,relaunch application
+user1,sessionA,info,logout,2026-02-15T08:02:30Z,storeX,1.0.0,1.0.0,user logged out
+user3,sessionC,info,login,2026-02-15T08:03:00Z,storeZ,1.0.2,1.0.2,user logged in
+user3,sessionC,info,purchase_item,2026-02-15T08:03:45Z,storeZ,1.0.2,1.0.2,completed purchase

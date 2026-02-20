@@ -1,0 +1,1063 @@
+__source__,__tag__:__client_ip__,__tag__:__receive_time__,__time__,__time_ns_part__,__topic__,_datetime_,_guid_,_level_,_seq_,clientVer,country,device,deviceId,model,packVer,resp,runtime,sid,stack,store,sys_build,system,uid
+,115.76.54.165,1770913755,1770913755,435057348,,2026-02-12T23:29:15.0440150+07:00,070bbf40-9dcc-4be1-8064-3f412fad7577,Error,1897,1.92.21.2152,VN,iPhone,567C099A-9207-4F81-A19D-5F78DE94F06F,"iPhone9,4",1.92.14,"[DMG_ERR]:True|301|dmg:14195656059|10031|3628122228|3628122228|10031121  |map:2151
+TeamInfo:7|0-gid:11,meta:10033atk:925136963|12495|0|1762|4295|0|2478446644adjAtk:0|1-gid:12,meta:10031atk:1354280518|12495|0|1762|4295|0|3628122228adjAtk:0|2-gid:13,meta:10027atk:759770719|12495|0|1762|4295|0|2035430476adjAtk:0|3-gid:14,meta:10018atk:4392241964|14355|0|1762|4305|0|12588170518adjAtk:0|4-gid:15,meta:10043atk:692229280|12495|0|1762|4305|0|1855179192adjAtk:0|5-gid:16,meta:10025atk:2078072095|12495|0|1762|4295|0|5567159862adjAtk:0|6-gid:423,meta:840001atk:831043698|0|0|0|0|0|831043698adjAtk:0
+Other:|more:153|23003|more:231|23003|more:308|23003|more:347|23003|more:387|23003",ios,10656,"  at System.Environment.get_StackTrace () [0x00000] in <f4d1b62a0e2744f4a77e153b82cdcfa1>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 ",applestore_vn,Version 15.8.4 (Build 19H390),iOS 15.8.4,1628721850784
+,1.52.163.216,1770913757,1770913757,887823807,,2026-02-12T16:29:16.6958020+00:00,8c394d96-54b8-48f8-b06b-cf0acd1c60c0,Error,1276,1.92.21.2641,VN,<unknown>,792ed5db97f8d3df,CPH2457,1.92.14,"[DMG_ERR]:True|301|dmg:18993656457|10025|653666014|653666014|10025131  |map:528
+TeamInfo:7|0-gid:40,meta:10018atk:54189492|9505|0|3107|4635|0|130820933adjAtk:0|1-gid:41,meta:10031atk:37770744|9505|0|3107|4635|0|91186076adjAtk:0|2-gid:42,meta:10030atk:53583653|9505|0|3107|4635|0|129358438adjAtk:0|3-gid:43,meta:10027atk:48710574|9505|0|3107|4635|0|117594825adjAtk:0|4-gid:44,meta:10025atk:246291548|11905|0|3107|4635|0|653666014adjAtk:0|5-gid:45,meta:10033atk:159922956|10635|0|3107|4635|0|404133161adjAtk:0|6-gid:654,meta:840004atk:32579608|0|0|0|0|0|32579608adjAtk:0
+Other:",android,10435,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_vn,null,Android OS 14 / API-34 (TP1A.220905.001/S.2178ec0-3014b-3014d),1033075501246
+,115.76.54.165,1770913794,1770913794,135093450,,2026-02-12T23:29:53.3343870+07:00,070bbf40-9dcc-4be1-8064-3f412fad7577,Error,2000,1.92.21.2152,VN,iPhone,567C099A-9207-4F81-A19D-5F78DE94F06F,"iPhone9,4",1.92.14,"[DMG_ERR]:True|301|dmg:1268413260285|10018|296333737193|296333737193|10018231  |map:2154
+TeamInfo:7|0-gid:11,meta:10033atk:17785526957|12495|0|1762|4295|0|47647431438adjAtk:0|1-gid:12,meta:10031atk:26037224683|12495|0|1762|4295|0|69753729646adjAtk:0|2-gid:13,meta:10027atk:14606413903|12495|0|1762|4295|0|39130587566adjAtk:0|3-gid:14,meta:10018atk:103396277789|14355|0|1762|4305|0|296333737193adjAtk:0|4-gid:15,meta:10043atk:13322344356|12495|0|1762|4305|0|35703887596adjAtk:0|5-gid:16,meta:10025atk:39953870395|12495|0|1762|4295|0|107036423508adjAtk:0|6-gid:538,meta:840001atk:17523532242|0|0|0|0|0|17523532242adjAtk:0
+Other:|more:153|23003|more:231|23003|more:308|23003|more:347|23003|more:387|23003|more:502|23003",ios,10656,"  at System.Environment.get_StackTrace () [0x00000] in <f4d1b62a0e2744f4a77e153b82cdcfa1>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 ",applestore_vn,Version 15.8.4 (Build 19H390),iOS 15.8.4,1628721850784
+,1.52.163.216,1770913802,1770913802,525219370,,2026-02-12T16:30:01.3061000+00:00,8c394d96-54b8-48f8-b06b-cf0acd1c60c0,Error,1376,1.92.21.2641,VN,<unknown>,792ed5db97f8d3df,CPH2457,1.92.14,"[DMG_ERR]:True|301|dmg:186808377227|10025|12215106995|12215106995|10025131  |map:531
+TeamInfo:7|0-gid:40,meta:10018atk:761168385|9505|0|3107|4635|0|1837467981adjAtk:0|1-gid:41,meta:10031atk:530216767|9505|0|3107|4635|0|1279950775adjAtk:0|2-gid:42,meta:10030atk:752561529|9505|0|3107|4635|0|1816691031adjAtk:0|3-gid:43,meta:10027atk:684145417|9505|0|3107|4635|0|1651534536adjAtk:0|4-gid:44,meta:10025atk:4602524020|11905|0|3107|4635|0|12215106995adjAtk:0|5-gid:45,meta:10033atk:2578826340|10635|0|3107|4635|0|6516702012adjAtk:0|6-gid:777,meta:840004atk:538160877|0|0|0|0|0|538160877adjAtk:0
+Other:",android,10435,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_vn,null,Android OS 14 / API-34 (TP1A.220905.001/S.2178ec0-3014b-3014d),1033075501246
+,178.4.253.194,1770914989,1770914989,712405179,,2026-02-12T17:49:48.9078160+01:00,9042babf-941c-4aed-a562-6eb2b7b06b00,Error,1109,1.92.21.2641,DE,A21s von Thorsten,a083d7d2fad651e1,SM-A217F,1.92.20,"[DMG_ERR]:True|301|dmg:71379603980|10019|14261659137|14261659137|10019131  |map:913
+TeamInfo:7|0-gid:11,meta:10019atk:3136146620|22620|0|7121|12855|0|14261659137adjAtk:0|1-gid:12,meta:10048atk:756276191|21380|0|5722|6730|0|2882190370adjAtk:0|2-gid:13,meta:10049atk:1777321496|20530|0|7121|12855|0|7710940204adjAtk:0|3-gid:14,meta:10033atk:1775645948|20530|0|5994|12520|0|7644181610adjAtk:0|4-gid:15,meta:10047atk:839358463|20530|0|5722|6730|0|3127470953adjAtk:0|5-gid:16,meta:10045atk:644767622|20530|0|5722|6730|0|2402425479adjAtk:0|6-gid:447,meta:840005atk:1071434275|0|0|0|0|0|1071434275adjAtk:0
+Other:",android,10400,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_global,null,Android OS 12 / API-31 (SP1A.210812.016/A217FXXSCDXE2),951782353056
+,178.4.253.194,1770915029,1770915029,721747556,,2026-02-12T17:50:28.9070570+01:00,9042babf-941c-4aed-a562-6eb2b7b06b00,Error,1190,1.92.21.2641,DE,A21s von Thorsten,a083d7d2fad651e1,SM-A217F,1.92.20,"[DMG_ERR]:True|301|dmg:289831175670|10033|141657466115|141657466115|10033511  |map:915
+TeamInfo:7|0-gid:11,meta:10019atk:64852269279|22620|0|7121|12855|0|294915726929adjAtk:0|1-gid:12,meta:10048atk:10982103324|21380|0|5722|6730|0|41852817574adjAtk:0|2-gid:13,meta:10049atk:33450999057|20530|0|7121|12855|0|145127190303adjAtk:0|3-gid:14,meta:10033atk:32905328760|20530|0|5994|12520|0|141657466115adjAtk:0|4-gid:15,meta:10047atk:11651124293|20530|0|5722|6730|0|43412110435adjAtk:0|5-gid:16,meta:10045atk:8949604857|20530|0|5722|6730|0|33346249017adjAtk:0|6-gid:537,meta:840005atk:19534863862|0|0|0|0|0|19534863862adjAtk:0
+Other:",android,10400,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_global,null,Android OS 12 / API-31 (SP1A.210812.016/A217FXXSCDXE2),951782353056
+,178.4.253.194,1770915089,1770915089,647918869,,2026-02-12T17:51:28.8357830+01:00,9042babf-941c-4aed-a562-6eb2b7b06b00,Error,1309,1.92.21.2641,DE,A21s von Thorsten,a083d7d2fad651e1,SM-A217F,1.92.20,"[DMG_ERR]:True|301|dmg:6103833642175|840005|1575508141597|1575508141597|84005131  |map:918
+TeamInfo:7|0-gid:11,meta:10019atk:6098772825234|22620|0|7121|12855|0|27734169455134adjAtk:0|1-gid:12,meta:10048atk:607850785898|21380|0|5722|6730|0|2316519366863adjAtk:0|2-gid:13,meta:10049atk:2731655293426|20530|0|7121|12855|0|11851286521423adjAtk:0|3-gid:14,meta:10033atk:2625328456707|20530|0|5994|12520|0|11302039031927adjAtk:0|4-gid:15,meta:10047atk:602686416661|20530|0|5722|6730|0|2245609609799adjAtk:0|5-gid:16,meta:10045atk:462941297591|20530|0|5722|6730|0|1724919296144adjAtk:0|6-gid:676,meta:840005atk:1575508141597|0|0|0|0|0|1575508141597adjAtk:0
+Other:",android,10400,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_global,null,Android OS 12 / API-31 (SP1A.210812.016/A217FXXSCDXE2),951782353056
+,178.4.253.194,1770915159,1770915159,952971533,,2026-02-12T17:52:39.1311760+01:00,9042babf-941c-4aed-a562-6eb2b7b06b00,Error,1425,1.92.21.2641,DE,A21s von Thorsten,a083d7d2fad651e1,SM-A217F,1.92.20,"[DMG_ERR]:True|301|dmg:508993751925303|840005|131380349988463|131380349988463|84005131  |map:921
+TeamInfo:7|0-gid:11,meta:10019atk:573535864308006|22620|0|7121|12855|0|763479935602084adjAtk:0|1-gid:12,meta:10048atk:33644481224218|21380|0|5722|6730|0|128219117967301adjAtk:0|2-gid:13,meta:10049atk:223071803377107|20530|0|7121|12855|0|-2147483648adjAtk:0|3-gid:14,meta:10033atk:209460960074291|20530|0|5994|12520|0|901729433145626adjAtk:0|4-gid:15,meta:10047atk:31175962357070|20530|0|5722|6730|0|116161635763762adjAtk:0|5-gid:16,meta:10045atk:23947179160147|20530|0|5722|6730|0|89227189572027adjAtk:0|6-gid:812,meta:840005atk:131380349988463|0|0|0|0|0|131380349988463adjAtk:0
+Other:",android,10400,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_global,null,Android OS 12 / API-31 (SP1A.210812.016/A217FXXSCDXE2),951782353056
+,178.4.253.194,1770915262,1770915262,91373828,,2026-02-12T17:54:21.2550420+01:00,9042babf-941c-4aed-a562-6eb2b7b06b00,Error,1608,1.92.21.2641,DE,A21s von Thorsten,a083d7d2fad651e1,SM-A217F,1.92.20,"[DMG_ERR]:True|301|dmg:48433627319849|840005|8022062095964|8022062095964|84005131  |map:925
+TeamInfo:7|0-gid:11,meta:10019atk:-2147483648|22620|0|7121|12855|0|-2147483648adjAtk:0|1-gid:12,meta:10048atk:66861255015429|21380|0|5722|6730|0|254808242885606adjAtk:0|2-gid:13,meta:10049atk:-2147333383|20530|0|7121|12855|0|-2147483648adjAtk:0|3-gid:14,meta:10033atk:-2147483648|20530|0|5994|12520|0|-2147483648adjAtk:0|4-gid:15,meta:10047atk:-2147483648|20530|0|5722|6730|0|-2147483648adjAtk:0|5-gid:16,meta:10045atk:-2147352835|20530|0|5722|6730|0|-2147483648adjAtk:0|6-gid:997,meta:840005atk:8022062095964|0|0|0|0|0|8022062095964adjAtk:0
+Other:",android,10400,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_global,null,Android OS 12 / API-31 (SP1A.210812.016/A217FXXSCDXE2),951782353056
+,60.49.247.176,1770916033,1770916033,560366147,,2026-02-13T01:07:12.8131750+08:00,47a4ab67-3100-41c4-9a5a-9b747522e465,Error,3539,1.92.21.2641,MY,<unknown>,70e585555278408b,SM-A035F,1.92.14,"[DMG_ERR]:True|301|dmg:12091139423|10025|3500850498|3500850498|10025331  |map:2163
+TeamInfo:7|0-gid:11,meta:10043atk:2071078433|12199|0|1910|9455|0|6555797717adjAtk:0|1-gid:12,meta:10031atk:682791327|12199|0|1910|9455|0|2161313712adjAtk:0|2-gid:13,meta:10033atk:1851485549|12199|0|1910|9455|0|5860698402adjAtk:0|3-gid:14,meta:10025atk:1105972216|12199|0|1910|9455|0|3500850498adjAtk:0|4-gid:15,meta:10046atk:1410743453|12199|0|1910|9455|0|4465573372adjAtk:0|5-gid:16,meta:10027atk:1052041633|12199|0|1910|9455|0|3330138631adjAtk:0|6-gid:352,meta:840004atk:799021440|0|0|0|0|0|799021440adjAtk:0
+Other:",android,10653,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_global,null,Android OS 13 / API-33 (TP1A.220624.014/A035FXXS9CYG1),1620208462237
+,60.49.247.176,1770916067,1770916067,953696393,,2026-02-13T01:07:47.2009980+08:00,47a4ab67-3100-41c4-9a5a-9b747522e465,Error,3628,1.92.21.2641,MY,<unknown>,70e585555278408b,SM-A035F,1.92.14,"[DMG_ERR]:True|301|dmg:383449631636|10025|111023435142|111023435142|10025331  |map:2166
+TeamInfo:7|0-gid:11,meta:10043atk:65683122755|12199|0|1910|9455|0|207913362814adjAtk:0|1-gid:12,meta:10031atk:21652107511|12199|0|1910|9455|0|68537587161adjAtk:0|2-gid:13,meta:10033atk:58718396395|12199|0|1910|9455|0|185867217994adjAtk:0|3-gid:14,meta:10025atk:35074059865|12199|0|1910|9455|0|111023435142adjAtk:0|4-gid:15,meta:10046atk:44739582388|12199|0|1910|9455|0|141618680136adjAtk:0|5-gid:16,meta:10027atk:33363568402|12199|0|1910|9455|0|105609045465adjAtk:0|6-gid:457,meta:840004atk:25342256674|0|0|0|0|0|25342256674adjAtk:0
+Other:",android,10653,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_global,null,Android OS 13 / API-33 (TP1A.220624.014/A035FXXS9CYG1),1620208462237
+,60.49.247.176,1770916123,1770916123,755506094,,2026-02-13T01:08:43.0051980+08:00,47a4ab67-3100-41c4-9a5a-9b747522e465,Error,3750,1.92.21.2641,MY,<unknown>,70e585555278408b,SM-A035F,1.92.14,"[DMG_ERR]:True|301|dmg:17096635204158|10031|6880868485055|6880868485055|10031121  |map:2170
+TeamInfo:7|0-gid:11,meta:10043atk:6594278181961|12199|0|1910|9455|0|20873528163225adjAtk:0|1-gid:12,meta:10031atk:2173775345615|12199|0|1910|9455|0|6880868485055adjAtk:0|2-gid:13,meta:10033atk:5895050763054|12199|0|1910|9455|0|18660193691417adjAtk:0|3-gid:14,meta:10025atk:3521267461736|12199|0|1910|9455|0|11146220029425adjAtk:0|4-gid:15,meta:10046atk:4491640272471|14699|0|1910|9455|0|15340748193120adjAtk:0|5-gid:16,meta:10027atk:3349541758650|12199|0|1910|9455|0|10602639488876adjAtk:0|6-gid:597,meta:840004atk:2544249579896|0|0|0|0|0|2544249579896adjAtk:0
+Other:",android,10653,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_global,null,Android OS 13 / API-33 (TP1A.220624.014/A035FXXS9CYG1),1620208462237
+,58.187.189.165,1770922119,1770922119,550329297,,2026-02-13T01:48:35.9282740+07:00,6e737491-fed1-4a06-b048-763f2701d7e7,Error,1327,1.92.21.2641,VN,Sww,908322f93b5ba242,RMX3286,1.90.8,"[DMG_ERR]:True|301|dmg:10144902718|10017|778125774|778125774|10017111  |map:816
+TeamInfo:7|0-gid:11,meta:10039atk:276759351|20715|0|1964|3485|0|946523697adjAtk:0|1-gid:12,meta:10017atk:227853314|20665|0|1964|3485|0|778125774adjAtk:0|2-gid:13,meta:10028atk:123706761|20115|0|1964|3485|0|415661316adjAtk:0|3-gid:14,meta:10038atk:81642213|20115|0|1964|3485|0|274324434adjAtk:0|4-gid:15,meta:10045atk:134614740|20115|0|1964|3485|0|452312125adjAtk:0|5-gid:16,meta:10041atk:270719178|20115|0|1964|3485|0|909623037adjAtk:0|6-gid:298,meta:840003atk:106666848|0|0|0|0|0|106666848adjAtk:0
+Other:",android,10638,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_vn,null,Android OS 12 / API-31 (SP1A.210812.016/R.1133c97-6c5fc),1580256799118
+,58.187.189.165,1770922149,1770922149,768398284,,2026-02-13T01:49:08.2643020+07:00,6e737491-fed1-4a06-b048-763f2701d7e7,Error,1404,1.92.21.2641,VN,Sww,908322f93b5ba242,RMX3286,1.90.8,"[DMG_ERR]:True|301|dmg:25048885313|10039|11061525003|11061525003|10039331  |map:818
+TeamInfo:7|0-gid:11,meta:10039atk:3234362072|20715|0|1964|3485|0|11061525003adjAtk:0|1-gid:12,meta:10017atk:2654987588|20665|0|1964|3485|0|9066789320adjAtk:0|2-gid:13,meta:10028atk:1394400009|20115|0|1964|3485|0|4685190629adjAtk:0|3-gid:14,meta:10038atk:921959375|20115|0|1964|3485|0|3097790099adjAtk:0|4-gid:15,meta:10045atk:1516901772|20115|0|1964|3485|0|5096796552adjAtk:0|5-gid:16,meta:10041atk:3056347308|20115|0|1964|3485|0|10269333553adjAtk:0|6-gid:379,meta:840003atk:1223133638|0|0|0|0|0|1223133638adjAtk:0
+Other:",android,10638,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_vn,null,Android OS 12 / API-31 (SP1A.210812.016/R.1133c97-6c5fc),1580256799118
+,58.187.189.165,1770922203,1770922203,597757270,,2026-02-13T01:50:02.0250580+07:00,6e737491-fed1-4a06-b048-763f2701d7e7,Error,1535,1.92.21.2641,VN,Sww,908322f93b5ba242,RMX3286,1.90.8,"[DMG_ERR]:True|301|dmg:2792480573062|10017|1233152425440|1233152425440|10017001  |map:822
+TeamInfo:7|0-gid:11,meta:10039atk:442477488875|20715|0|1964|3485|0|1513273018669adjAtk:0|1-gid:12,meta:10017atk:361098804900|20665|0|1964|3485|0|1233152425440adjAtk:0|2-gid:13,meta:10028atk:177721963347|20115|0|1964|3485|0|597145803444adjAtk:0|3-gid:14,meta:10038atk:117481587881|20115|0|1964|3485|0|394738141879adjAtk:0|4-gid:15,meta:10045atk:193335081616|20115|0|1964|3485|0|649605880828adjAtk:0|5-gid:16,meta:10041atk:389547635688|20115|0|1964|3485|0|1308880062510adjAtk:0|6-gid:540,meta:840003atk:160963035940|0|0|0|0|0|160963035940adjAtk:0
+Other:",android,10638,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_vn,null,Android OS 12 / API-31 (SP1A.210812.016/R.1133c97-6c5fc),1580256799118
+,58.187.189.165,1770922273,1770922273,946709555,,2026-02-13T01:51:12.4886870+07:00,6e737491-fed1-4a06-b048-763f2701d7e7,Error,1675,1.92.21.2641,VN,Sww,908322f93b5ba242,RMX3286,1.90.8,"[DMG_ERR]:True|301|dmg:693876932845283|10041|166823297224553|166823297224553|10041001  |map:826
+TeamInfo:7|0-gid:11,meta:10039atk:60533443049222|20715|0|1964|3485|0|207024375235056adjAtk:0|1-gid:12,meta:10017atk:49112125552363|20665|0|1964|3485|0|167717908768026adjAtk:0|2-gid:13,meta:10028atk:22651540188381|20115|0|1964|3485|0|76109175039559adjAtk:0|3-gid:14,meta:10038atk:14973599027429|20115|0|1964|3485|0|50311292738760adjAtk:0|4-gid:15,meta:10045atk:24641506385471|20115|0|1964|3485|0|82795461461781adjAtk:0|5-gid:16,meta:10041atk:49649790838677|20115|0|1964|3485|0|166823297224553adjAtk:0|6-gid:701,meta:840003atk:21207179101195|0|0|0|0|0|21207179101195adjAtk:0
+Other:",android,10638,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_vn,null,Android OS 12 / API-31 (SP1A.210812.016/R.1133c97-6c5fc),1580256799118
+,126.204.226.77,1770922295,1770922295,281266852,,2026-02-13T03:51:34.3419980+09:00,0095c80b-9991-443d-baf6-eb62b5bfa20f,Error,9441,1.92.23.2644,JP,AQUOS zero5G basic 店のスピーカー,22ac0b5f13d8b7c7,A002SH,1.91.17,"[DMG_ERR]:True|301|dmg:13124827191|10039|2545086376|2545086376|10039321  |map:754
+TeamInfo:7|0-gid:11,meta:10047atk:438252661|88900|0|5815|26570|0|5498829098adjAtk:0|1-gid:12,meta:10039atk:210732479|84200|0|5815|26570|0|2545086376adjAtk:0|2-gid:13,meta:10041atk:179275491|82450|0|5815|26570|0|2133806104adjAtk:0|3-gid:14,meta:10048atk:145774611|82080|0|5815|26570|0|1729684754adjAtk:0|4-gid:15,meta:10052atk:185364829|82820|0|5815|26570|0|2213140118adjAtk:0|5-gid:16,meta:10045atk:228615290|83180|0|5815|26570|0|2737737732adjAtk:0|6-gid:1669,meta:840007atk:154233674|0|0|0|0|0|154233674adjAtk:0
+Other:",android,10107,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 ",googleplay_global,null,Android OS 12 / API-31 (SKQ1.211202.001/14JP_3_220),266220742519
+,126.204.226.77,1770922325,1770922325,361301838,,2026-02-13T03:52:04.4382310+09:00,0095c80b-9991-443d-baf6-eb62b5bfa20f,Error,9478,1.92.23.2644,JP,AQUOS zero5G basic 店のスピーカー,22ac0b5f13d8b7c7,A002SH,1.91.17,"[DMG_ERR]:True|301|dmg:86363377014|10039|31205699836|31205699836|10039133  |map:755
+TeamInfo:7|0-gid:11,meta:10047atk:5485454490|91500|0|5815|26570|0|70252290126adjAtk:0|1-gid:12,meta:10039atk:2529434068|86800|0|5815|26570|0|31205699836adjAtk:0|2-gid:13,meta:10041atk:2121595141|85050|0|5815|26570|0|25802910826adjAtk:0|3-gid:14,meta:10048atk:1717605525|84680|0|5815|26570|0|20826037497adjAtk:0|4-gid:15,meta:10052atk:2200445603|85420|0|5815|26570|0|26843306848adjAtk:0|5-gid:16,meta:10045atk:2725234350|85780|0|5815|26570|0|33343313418adjAtk:0|6-gid:1729,meta:840007atk:1872992892|2600|0|0|0|0|2359971043adjAtk:0
+Other:|more:1732|30020|more:1733|30020|more:1734|30020",android,10107,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 ",googleplay_global,null,Android OS 12 / API-31 (SKQ1.211202.001/14JP_3_220),266220742519
+,126.204.226.77,1770922382,1770922382,2043212,,2026-02-13T03:53:01.0859680+09:00,0095c80b-9991-443d-baf6-eb62b5bfa20f,Error,9554,1.92.23.2644,JP,AQUOS zero5G basic 店のスピーカー,22ac0b5f13d8b7c7,A002SH,1.91.17,"[DMG_ERR]:True|301|dmg:95086395070546|10041|3645642976341|3645642976341|10041321  |map:757
+TeamInfo:7|0-gid:11,meta:10047atk:863375459373|88900|0|5815|26570|0|10832771961713adjAtk:0|1-gid:12,meta:10039atk:367841764102|84050|0|5815|26570|0|4436907428738adjAtk:0|2-gid:13,meta:10041atk:300374302197|84800|0|5815|26570|0|3645642976341adjAtk:0|3-gid:14,meta:10048atk:241636750314|82080|0|5815|26570|0|2867020111470adjAtk:0|4-gid:15,meta:10052atk:313484119389|82820|0|5815|26570|0|3742686970810adjAtk:0|5-gid:16,meta:10045atk:390632511301|83180|0|5815|26570|0|4677824392464adjAtk:0|6-gid:1848,meta:840007atk:276642973507|2200|0|0|0|0|337504427678adjAtk:0
+Other:|more:1851|24006",android,10107,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 ",googleplay_global,null,Android OS 12 / API-31 (SKQ1.211202.001/14JP_3_220),266220742519
+,126.204.226.77,1770922452,1770922452,922788887,,2026-02-13T03:54:11.9812310+09:00,0095c80b-9991-443d-baf6-eb62b5bfa20f,Error,9627,1.92.23.2644,JP,AQUOS zero5G basic 店のスピーカー,22ac0b5f13d8b7c7,A002SH,1.91.17,"[DMG_ERR]:True|301|dmg:94716031266861|840007|48115840115246|48115840115246|84007001  |map:759
+TeamInfo:7|0-gid:11,meta:10047atk:135918604556987|88900|0|5815|26570|0|-2147483648adjAtk:0|1-gid:12,meta:10039atk:53517806295711|85650|0|5815|26570|0|654094628617250adjAtk:0|2-gid:13,meta:10041atk:42550143720314|84050|0|5815|26570|0|513239833624567adjAtk:0|3-gid:14,meta:10048atk:34017028097269|83680|0|5815|26570|0|409054762939585adjAtk:0|4-gid:15,meta:10052atk:44683772132628|84420|0|5815|26570|0|540628959103021adjAtk:0|5-gid:16,meta:10045atk:56016778468064|84780|0|5815|26570|0|679763606780521adjAtk:0|6-gid:1966,meta:840007atk:40949651161912|1750|0|0|0|0|48115840115246adjAtk:0
+Other:|more:1969|30018",android,10107,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 ",googleplay_global,null,Android OS 12 / API-31 (SKQ1.211202.001/14JP_3_220),266220742519
+,126.204.226.77,1770922543,1770922543,339648248,,2026-02-13T03:55:42.4316510+09:00,0095c80b-9991-443d-baf6-eb62b5bfa20f,Error,9705,1.92.23.2644,JP,AQUOS zero5G basic 店のスピーカー,22ac0b5f13d8b7c7,A002SH,1.91.17,"[DMG_ERR]:True|301|dmg:497841062909644|840007|252903765765631|252903765765631|84007001  |map:761
+TeamInfo:7|0-gid:11,meta:10047atk:-2691113944|88900|0|5815|26570|0|-2147483648adjAtk:0|1-gid:12,meta:10039atk:848399241110243|85250|0|5815|26570|0|-2147483648adjAtk:0|2-gid:13,meta:10041atk:-2691113944|83650|0|5815|26570|0|-2147483648adjAtk:0|3-gid:14,meta:10048atk:163520061560080|83280|0|5815|26570|0|115113530496296adjAtk:0|4-gid:15,meta:10052atk:-2691113944|84020|0|5815|26570|0|-2147483648adjAtk:0|5-gid:16,meta:10045atk:-749838445924652|84380|0|5815|26570|0|154076033466442adjAtk:0|6-gid:2084,meta:840007atk:235259316991285|750|0|0|0|0|252903765765631adjAtk:0
+Other:",android,10107,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <fa7c295657134ec59b9e907b2e3a25e7>:0 ",googleplay_global,null,Android OS 12 / API-31 (SKQ1.211202.001/14JP_3_220),266220742519
+,179.26.193.77,1770940068,1770940068,409994426,,2026-02-12T23:47:48.3009100+00:00,0581b39c-2fc3-4bd6-882e-6dc5a6fd4451,Error,1930,1.92.21.2641,UY,<unknown>,90d03ba3f1bd5b1f,25078RA3EL,1.92.14,"[DMG_ERR]:True|301|dmg:41949142287|10025|20379933594|20379933594|10025801  |map:2169
+TeamInfo:7|0-gid:2,meta:10043atk:6592599642|22040|0|4719|15375|0|31258833577adjAtk:0|1-gid:3,meta:10031atk:3881724483|19860|0|4719|15375|0|17559002045adjAtk:0|2-gid:4,meta:10025atk:4505341494|19860|0|4719|15375|0|20379933594adjAtk:0|3-gid:5,meta:10033atk:6496390589|21070|0|4719|15375|0|30172508008adjAtk:0|4-gid:6,meta:10046atk:4165314331|21860|0|4719|15375|0|19674884532adjAtk:0|5-gid:7,meta:10027atk:3572641921|19860|0|4719|15375|0|16160867076adjAtk:0|6-gid:750,meta:840004atk:3014502236|0|0|0|0|0|3014502236adjAtk:0
+Other:",android,10563,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_global,null,Android OS 15 / API-35 (AP3A.240905.015.A2/OS2.0.217.0.VBNMIXM),1372705270081
+,179.26.193.77,1770940147,1770940147,51411885,,2026-02-12T23:49:05.4655930+00:00,0581b39c-2fc3-4bd6-882e-6dc5a6fd4451,Error,2025,1.92.21.2641,UY,<unknown>,90d03ba3f1bd5b1f,25078RA3EL,1.92.14,"[DMG_ERR]:True|301|dmg:1785587340578|10031|343566137820|343566137820|10031131  |map:2171
+TeamInfo:7|0-gid:2,meta:10043atk:142022946230|22040|0|4719|15375|0|673401821924adjAtk:0|1-gid:3,meta:10031atk:75951390842|19860|0|4719|15375|0|343566137820adjAtk:0|2-gid:4,meta:10025atk:88153924561|19860|0|4719|15375|0|398764299098adjAtk:0|3-gid:5,meta:10033atk:134166968790|21070|0|4719|15375|0|623138508462adjAtk:0|4-gid:6,meta:10046atk:81499772331|19860|0|4719|15375|0|368664241485adjAtk:0|5-gid:7,meta:10027atk:69903463484|19860|0|4719|15375|0|316208338416adjAtk:0|6-gid:803,meta:840004atk:61057679298|0|0|0|0|0|61057679298adjAtk:0
+Other:",android,10563,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_global,null,Android OS 15 / API-35 (AP3A.240905.015.A2/OS2.0.217.0.VBNMIXM),1372705270081
+,179.26.193.77,1770940200,1770940200,297653831,,2026-02-12T23:50:00.1914660+00:00,0581b39c-2fc3-4bd6-882e-6dc5a6fd4451,Error,2151,1.92.21.2641,UY,<unknown>,90d03ba3f1bd5b1f,25078RA3EL,1.92.14,"[DMG_ERR]:True|301|dmg:557110887824302|10025|152679032419258|152679032419258|10025801  |map:2175
+TeamInfo:7|0-gid:2,meta:10043atk:65916055908196|22040|0|4719|15375|0|312540979111086adjAtk:0|1-gid:3,meta:10031atk:29080289616819|19860|0|4719|15375|0|131544690103027adjAtk:0|2-gid:4,meta:10025atk:33752411273994|19860|0|4719|15375|0|152679032419258adjAtk:0|3-gid:5,meta:10033atk:57225457504314|21070|0|4719|15375|0|265783637400703adjAtk:0|4-gid:6,meta:10046atk:31204646162074|19860|0|4719|15375|0|141154216935488adjAtk:0|5-gid:7,meta:10027atk:26764651484319|19860|0|4719|15375|0|121069901010663adjAtk:0|6-gid:908,meta:840004atk:25172717998027|0|0|0|0|0|25172717998027adjAtk:0
+Other:",android,10563,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_global,null,Android OS 15 / API-35 (AP3A.240905.015.A2/OS2.0.217.0.VBNMIXM),1372705270081
+,73.183.226.52,1770943982,1770943982,712375353,,2026-02-12T18:53:02.5927580-06:00,309c0a60-954f-4b21-8ec7-3a3c48a1bb78,Error,2195,1.92.21.2152,CA,iPad,02FD5E09-06DF-47B8-BC86-2BBE04E2DEEA,"iPad7,3",1.92.14,"[DMG_ERR]:True|301|dmg:15202275534|10025|3564833570|3564833570|10025331  |map:816
+TeamInfo:7|0-gid:11,meta:10018atk:711129969|19985|0|3400|11825|0|2973248615adjAtk:0|1-gid:12,meta:10025atk:853440117|19945|0|3400|11825|0|3564833570adjAtk:0|2-gid:13,meta:10040atk:121349938|18145|0|3430|3705|0|386510477adjAtk:0|3-gid:14,meta:10021atk:90820958|17295|0|3430|3705|0|281555602adjAtk:0|4-gid:15,meta:10045atk:182554465|18145|0|3510|3895|0|584915751adjAtk:0|5-gid:16,meta:10028atk:123649963|17295|0|3510|3895|0|385675182adjAtk:0|6-gid:367,meta:840004atk:235968070|0|0|0|0|0|235968070adjAtk:0
+Other:",ios,10552,"  at System.Environment.get_StackTrace () [0x00000] in <f4d1b62a0e2744f4a77e153b82cdcfa1>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 ",applestore_global,Version 17.7.10 (Build 21H450),iPadOS 17.7.10,1338447309108
+,73.183.226.52,1770944014,1770944014,35820759,,2026-02-12T18:53:33.9172450-06:00,309c0a60-954f-4b21-8ec7-3a3c48a1bb78,Error,2269,1.92.21.2152,CA,iPad,02FD5E09-06DF-47B8-BC86-2BBE04E2DEEA,"iPad7,3",1.92.14,"[DMG_ERR]:True|301|dmg:16098429383|10040|3916816555|3916816555|10040123  |map:818
+TeamInfo:7|0-gid:11,meta:10018atk:12428869869|19985|0|3400|11825|0|51965119137adjAtk:0|1-gid:12,meta:10025atk:14888031875|19945|0|3400|11825|0|62187323343adjAtk:0|2-gid:13,meta:10040atk:1229766289|18145|0|3430|3705|0|3916816555adjAtk:0|3-gid:14,meta:10021atk:871627307|17295|0|3430|3705|0|2702055284adjAtk:0|4-gid:15,meta:10045atk:1872476637|18145|0|3510|3895|0|5999426390adjAtk:0|5-gid:16,meta:10028atk:1201690600|17295|0|3510|3895|0|3748083929adjAtk:0|6-gid:457,meta:840004atk:3682380017|0|0|0|0|0|3682380017adjAtk:0
+Other:",ios,10552,"  at System.Environment.get_StackTrace () [0x00000] in <f4d1b62a0e2744f4a77e153b82cdcfa1>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 ",applestore_global,Version 17.7.10 (Build 21H450),iPadOS 17.7.10,1338447309108
+,73.183.226.52,1770944070,1770944070,939456241,,2026-02-12T18:54:30.8266960-06:00,309c0a60-954f-4b21-8ec7-3a3c48a1bb78,Error,2400,1.92.21.2152,CA,iPad,02FD5E09-06DF-47B8-BC86-2BBE04E2DEEA,"iPad7,3",1.92.14,"[DMG_ERR]:True|301|dmg:89634735099671|10018|15879169341637|15879169341637|10018231  |map:822
+TeamInfo:7|0-gid:11,meta:10018atk:3797935739637|19985|0|3400|11825|0|15879169341637adjAtk:0|1-gid:12,meta:10025atk:4532014273392|19945|0|3400|11825|0|18930223634160adjAtk:0|2-gid:13,meta:10040atk:126535709213|18145|0|3430|3705|0|403016244767adjAtk:0|3-gid:14,meta:10021atk:80484282345|17295|0|3430|3705|0|249501285902adjAtk:0|4-gid:15,meta:10045atk:197309420455|18145|0|3510|3895|0|632179394383adjAtk:0|5-gid:16,meta:10028atk:113711700741|17295|0|3510|3895|0|354666805558adjAtk:0|6-gid:638,meta:840004atk:1002772229244|0|0|0|0|0|1002772229244adjAtk:0
+Other:",ios,10552,"  at System.Environment.get_StackTrace () [0x00000] in <f4d1b62a0e2744f4a77e153b82cdcfa1>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 ",applestore_global,Version 17.7.10 (Build 21H450),iPadOS 17.7.10,1338447309108
+,73.183.226.52,1770944149,1770944149,124555749,,2026-02-12T18:55:49.0156220-06:00,309c0a60-954f-4b21-8ec7-3a3c48a1bb78,Error,2562,1.92.21.2152,CA,iPad,02FD5E09-06DF-47B8-BC86-2BBE04E2DEEA,"iPad7,3",1.92.14,"[DMG_ERR]:True|301|dmg:256746081584698|10021|71429977240184|71429977240184|10021321  |map:827
+TeamInfo:7|0-gid:11,meta:10018atk:-2147364298|19985|0|3400|11825|0|-2147483648adjAtk:0|1-gid:12,meta:10025atk:-2147389843|19945|0|3400|11825|0|-2147483648adjAtk:0|2-gid:13,meta:10040atk:41472462668354|18145|0|3430|3705|0|132089793609632adjAtk:0|3-gid:14,meta:10021atk:23041928138565|17295|0|3430|3705|0|71429977240184adjAtk:0|4-gid:15,meta:10045atk:66620822340559|18145|0|3510|3895|0|213453114790397adjAtk:0|5-gid:16,meta:10028atk:33564602424764|17295|0|3510|3895|0|104687994973786adjAtk:0|6-gid:865,meta:840004atk:18665492276720|0|0|0|0|0|18665492276720adjAtk:0
+Other:",ios,10552,"  at System.Environment.get_StackTrace () [0x00000] in <f4d1b62a0e2744f4a77e153b82cdcfa1>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 ",applestore_global,Version 17.7.10 (Build 21H450),iPadOS 17.7.10,1338447309108
+,73.183.226.52,1770944240,1770944240,196066298,,2026-02-12T18:57:20.0736580-06:00,309c0a60-954f-4b21-8ec7-3a3c48a1bb78,Error,2676,1.92.21.2152,CA,iPad,02FD5E09-06DF-47B8-BC86-2BBE04E2DEEA,"iPad7,3",1.92.14,"[DMG_ERR]:True|301|dmg:197640673298467|840004|117071835859773|117071835859773|84004001  |map:830
+TeamInfo:7|0-gid:11,meta:10018atk:-2147483648|19985|0|3400|11825|0|-2147483648adjAtk:0|1-gid:12,meta:10025atk:-2147483648|19945|0|3400|11825|0|-2147483648adjAtk:0|2-gid:13,meta:10040atk:-2147469645|18145|0|3430|3705|0|-2147483648adjAtk:0|3-gid:14,meta:10021atk:686442079496407|17295|0|3430|3705|0|283296039078539adjAtk:0|4-gid:15,meta:10045atk:346553297422189|18145|0|3510|3895|0|-2147483648adjAtk:0|5-gid:16,meta:10028atk:-2147327216|17295|0|3510|3895|0|-2147483648adjAtk:0|6-gid:1001,meta:840004atk:117071835859773|0|0|0|0|0|117071835859773adjAtk:0
+Other:",ios,10552,"  at System.Environment.get_StackTrace () [0x00000] in <f4d1b62a0e2744f4a77e153b82cdcfa1>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 ",applestore_global,Version 17.7.10 (Build 21H450),iPadOS 17.7.10,1338447309108
+,184.167.28.120,1770949936,1770949936,473402016,,2026-02-12T19:32:16.4085170-07:00,f9dd1ba4-e11c-49bd-a081-3065da1ee670,Error,3335,1.92.21.2152,US,iPhone,6AF1F336-E64F-45AF-A40E-9D0EE7566884,"iPhone17,2",1.92.14,"[DMG_ERR]:True|301|dmg:10051811788|10041|24820674|24820674|10041331  |map:852
+TeamInfo:7|0-gid:137,meta:10048atk:19792941|800|1598828|0|0|0|22975204adjAtk:0|1-gid:138,meta:10039atk:19880681|800|1589421|0|0|0|23060556adjAtk:0|2-gid:139,meta:10028atk:21454838|800|1588245|0|0|0|24759470adjAtk:0|3-gid:140,meta:10047atk:21215757|800|1589421|0|0|0|24502438adjAtk:0|4-gid:141,meta:10045atk:20424318|800|1589421|0|0|0|23647684adjAtk:0|5-gid:142,meta:10041atk:21215757|950|1589421|0|0|0|24820674adjAtk:0|6-gid:2420,meta:840007atk:30620365|800|0|0|0|0|33069994adjAtk:0
+Other:|more:2424|30020|more:2425|30020|more:2426|30020|more:2427|30018",ios,10410,"  at System.Environment.get_StackTrace () [0x00000] in <f4d1b62a0e2744f4a77e153b82cdcfa1>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <97992daf2fdc4e688c2809fdc8f09bf5>:0 ",applestore_global,Version 26.2.1 (Build 23C71),iOS 26.2.1,976572917929
+,72.128.86.58,1770953467,1770953467,309698393,,2026-02-12T21:31:06.8574334-06:00,238fdfeb-eb59-49a7-89c5-d25facf05deb,Error,12459,1.92.21.1082,CN,DESKTOP-A5DSRDN,0a5d00c12997722331cddcc23b8f3ec4c68b9a071760147511247,unknown or hide,1.92.21,"Message:[DMG_ERR]:True|301|dmg:11112813688|10046|34427557|34427557|10046231  |map:846
+TeamInfo:7|0-gid:48,meta:10031atk:18679622|2000|6084655|0|0|0|28500201adjAtk:0|1-gid:49,meta:10043atk:17812624|2000|6073537|0|0|0|27448685adjAtk:0|2-gid:50,meta:10050atk:18493611|2000|6073537|0|0|0|28265870adjAtk:0|3-gid:51,meta:10033atk:18902680|2000|6073537|0|0|0|28756753adjAtk:0|4-gid:52,meta:10046atk:18902680|5000|6073537|0|0|0|34427557adjAtk:0|5-gid:53,meta:10027atk:19674971|4500|6073537|0|0|0|34602244adjAtk:0|6-gid:1811,meta:840004atk:10219395|0|0|0|0|0|10219395adjAtk:0
+Other:|more:1814|30022
+StackTrace:
+  at System.Environment.get_StackTrace () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoDecAndEffect () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, UpdateTimeInfo c) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.DoLateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.LateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (UpdateTimeInfo info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`1[T].Invoke (T obj) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UniqueMonoEventListener.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+",windows,10410,"  at System.Environment.get_StackTrace () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GameLaunch.ApplicationOnlogMessageReceived (System.String condition, System.String stacktrace, UnityEngine.LogType type) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UnityEngine.Application+LogCallback.Invoke (System.String condition, System.String stackTrace, UnityEngine.LogType type) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UnityEngine.Application.CallLogCallback (System.String logString, System.String stackTrace, UnityEngine.LogType type, System.Boolean invokedOnMainThread) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UnityEngine.Logger.Log (UnityEngine.LogType logType, System.Object message, UnityEngine.Object context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UnityEngine.Debug.LogError (System.Object message, UnityEngine.Object context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.EditorLoggerTarget.Error (System.String message, System.String stackTrace, System.Object context, FibMatrix.LogImportance importance) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoDecAndEffect () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, UpdateTimeInfo c) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.DoLateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.LateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (UpdateTimeInfo info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`1[T].Invoke (T obj) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UniqueMonoEventListener.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 ",windows,null,Windows 11  (10.0.26100) 64bit,983652968619
+,72.128.86.58,1770953467,1770953467,927723089,,2026-02-12T21:31:06.8584612-06:00,238fdfeb-eb59-49a7-89c5-d25facf05deb,Error,12460,1.92.21.1082,CN,DESKTOP-A5DSRDN,0a5d00c12997722331cddcc23b8f3ec4c68b9a071760147511247,unknown or hide,1.92.21,"[DMG_ERR]:True|301|dmg:11112813688|10046|34427557|34427557|10046231  |map:846
+TeamInfo:7|0-gid:48,meta:10031atk:18679622|2000|6084655|0|0|0|28500201adjAtk:0|1-gid:49,meta:10043atk:17812624|2000|6073537|0|0|0|27448685adjAtk:0|2-gid:50,meta:10050atk:18493611|2000|6073537|0|0|0|28265870adjAtk:0|3-gid:51,meta:10033atk:18902680|2000|6073537|0|0|0|28756753adjAtk:0|4-gid:52,meta:10046atk:18902680|5000|6073537|0|0|0|34427557adjAtk:0|5-gid:53,meta:10027atk:19674971|4500|6073537|0|0|0|34602244adjAtk:0|6-gid:1811,meta:840004atk:10219395|0|0|0|0|0|10219395adjAtk:0
+Other:|more:1814|30022",windows,10410,"  at System.Environment.get_StackTrace () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoDecAndEffect () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, UpdateTimeInfo c) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.DoLateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.LateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (UpdateTimeInfo info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`1[T].Invoke (T obj) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UniqueMonoEventListener.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 ",windows,null,Windows 11  (10.0.26100) 64bit,983652968619
+,72.128.86.58,1770954146,1770954146,548726146,,2026-02-12T21:42:26.0681496-06:00,238fdfeb-eb59-49a7-89c5-d25facf05deb,Error,13325,1.92.21.1082,CN,DESKTOP-A5DSRDN,0a5d00c12997722331cddcc23b8f3ec4c68b9a071760147511247,unknown or hide,1.92.21,"Message:[DMG_ERR]:True|301|dmg:15107988046|10046|39255495|39255495|10046231  |map:861
+TeamInfo:7|0-gid:48,meta:10031atk:18678904|7000|1461253|0|0|0|33215389adjAtk:0|1-gid:49,meta:10043atk:17812624|10000|1450135|0|0|0|37075383adjAtk:0|2-gid:50,meta:10050atk:18493611|7000|1450135|0|0|0|32889273adjAtk:0|3-gid:51,meta:10033atk:18902680|7000|1450135|0|0|0|33584691adjAtk:0|4-gid:52,meta:10046atk:18902680|10000|1450135|0|0|0|39255495adjAtk:0|5-gid:53,meta:10027atk:19674971|9500|1450135|0|0|0|39816328adjAtk:0|6-gid:567,meta:840004atk:10219395|5000|0|0|0|0|15329092adjAtk:0
+Other:|more:570|30022
+StackTrace:
+  at System.Environment.get_StackTrace () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoDecAndEffect () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, UpdateTimeInfo c) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.DoLateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.LateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (UpdateTimeInfo info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`1[T].Invoke (T obj) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UniqueMonoEventListener.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+",windows,10410,"  at System.Environment.get_StackTrace () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GameLaunch.ApplicationOnlogMessageReceived (System.String condition, System.String stacktrace, UnityEngine.LogType type) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UnityEngine.Application+LogCallback.Invoke (System.String condition, System.String stackTrace, UnityEngine.LogType type) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UnityEngine.Application.CallLogCallback (System.String logString, System.String stackTrace, UnityEngine.LogType type, System.Boolean invokedOnMainThread) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UnityEngine.Logger.Log (UnityEngine.LogType logType, System.Object message, UnityEngine.Object context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UnityEngine.Debug.LogError (System.Object message, UnityEngine.Object context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.EditorLoggerTarget.Error (System.String message, System.String stackTrace, System.Object context, FibMatrix.LogImportance importance) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoDecAndEffect () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, UpdateTimeInfo c) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.DoLateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.LateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (UpdateTimeInfo info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`1[T].Invoke (T obj) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UniqueMonoEventListener.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 ",windows,null,Windows 11  (10.0.26100) 64bit,983652968619
+,72.128.86.58,1770954146,1770954146,867917814,,2026-02-12T21:42:26.0681496-06:00,238fdfeb-eb59-49a7-89c5-d25facf05deb,Error,13326,1.92.21.1082,CN,DESKTOP-A5DSRDN,0a5d00c12997722331cddcc23b8f3ec4c68b9a071760147511247,unknown or hide,1.92.21,"[DMG_ERR]:True|301|dmg:15107988046|10046|39255495|39255495|10046231  |map:861
+TeamInfo:7|0-gid:48,meta:10031atk:18678904|7000|1461253|0|0|0|33215389adjAtk:0|1-gid:49,meta:10043atk:17812624|10000|1450135|0|0|0|37075383adjAtk:0|2-gid:50,meta:10050atk:18493611|7000|1450135|0|0|0|32889273adjAtk:0|3-gid:51,meta:10033atk:18902680|7000|1450135|0|0|0|33584691adjAtk:0|4-gid:52,meta:10046atk:18902680|10000|1450135|0|0|0|39255495adjAtk:0|5-gid:53,meta:10027atk:19674971|9500|1450135|0|0|0|39816328adjAtk:0|6-gid:567,meta:840004atk:10219395|5000|0|0|0|0|15329092adjAtk:0
+Other:|more:570|30022",windows,10410,"  at System.Environment.get_StackTrace () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoDecAndEffect () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, UpdateTimeInfo c) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.DoLateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.LateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (UpdateTimeInfo info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`1[T].Invoke (T obj) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UniqueMonoEventListener.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 ",windows,null,Windows 11  (10.0.26100) 64bit,983652968619
+,72.128.86.58,1770954269,1770954269,513625188,,2026-02-12T21:44:29.0738515-06:00,238fdfeb-eb59-49a7-89c5-d25facf05deb,Error,13532,1.92.21.1082,CN,DESKTOP-A5DSRDN,0a5d00c12997722331cddcc23b8f3ec4c68b9a071760147511247,unknown or hide,1.92.21,"Message:[DMG_ERR]:True|301|dmg:10278793692|10046|29732596|29732596|10046231  |map:867
+TeamInfo:7|0-gid:48,meta:10031atk:18679622|2000|1461253|0|0|0|23876799adjAtk:0|1-gid:49,meta:10043atk:17812624|5000|1450135|0|0|0|28169071adjAtk:0|2-gid:50,meta:10050atk:18493611|2000|1450135|0|0|0|23642468adjAtk:0|3-gid:51,meta:10033atk:18902680|2000|1450135|0|0|0|24133351adjAtk:0|4-gid:52,meta:10046atk:18854974|5000|1450135|0|0|0|29732596adjAtk:0|5-gid:53,meta:10027atk:19674971|4500|1450135|0|0|0|29978842adjAtk:0|6-gid:885,meta:840004atk:10219395|0|0|0|0|0|10219395adjAtk:0
+Other:|more:888|30022
+StackTrace:
+  at System.Environment.get_StackTrace () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoDecAndEffect () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, UpdateTimeInfo c) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.DoLateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.LateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (UpdateTimeInfo info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`1[T].Invoke (T obj) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UniqueMonoEventListener.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+",windows,10410,"  at System.Environment.get_StackTrace () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GameLaunch.ApplicationOnlogMessageReceived (System.String condition, System.String stacktrace, UnityEngine.LogType type) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UnityEngine.Application+LogCallback.Invoke (System.String condition, System.String stackTrace, UnityEngine.LogType type) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UnityEngine.Application.CallLogCallback (System.String logString, System.String stackTrace, UnityEngine.LogType type, System.Boolean invokedOnMainThread) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UnityEngine.Logger.Log (UnityEngine.LogType logType, System.Object message, UnityEngine.Object context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UnityEngine.Debug.LogError (System.Object message, UnityEngine.Object context) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.EditorLoggerTarget.Error (System.String message, System.String stackTrace, System.Object context, FibMatrix.LogImportance importance) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoDecAndEffect () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, UpdateTimeInfo c) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.DoLateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.LateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (UpdateTimeInfo info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`1[T].Invoke (T obj) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UniqueMonoEventListener.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 ",windows,null,Windows 11  (10.0.26100) 64bit,983652968619
+,72.128.86.58,1770954269,1770954269,611718417,,2026-02-12T21:44:29.0749391-06:00,238fdfeb-eb59-49a7-89c5-d25facf05deb,Error,13533,1.92.21.1082,CN,DESKTOP-A5DSRDN,0a5d00c12997722331cddcc23b8f3ec4c68b9a071760147511247,unknown or hide,1.92.21,"[DMG_ERR]:True|301|dmg:10278793692|10046|29732596|29732596|10046231  |map:867
+TeamInfo:7|0-gid:48,meta:10031atk:18679622|2000|1461253|0|0|0|23876799adjAtk:0|1-gid:49,meta:10043atk:17812624|5000|1450135|0|0|0|28169071adjAtk:0|2-gid:50,meta:10050atk:18493611|2000|1450135|0|0|0|23642468adjAtk:0|3-gid:51,meta:10033atk:18902680|2000|1450135|0|0|0|24133351adjAtk:0|4-gid:52,meta:10046atk:18854974|5000|1450135|0|0|0|29732596adjAtk:0|5-gid:53,meta:10027atk:19674971|4500|1450135|0|0|0|29978842adjAtk:0|6-gid:885,meta:840004atk:10219395|0|0|0|0|0|10219395adjAtk:0
+Other:|more:888|30022",windows,10410,"  at System.Environment.get_StackTrace () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.DoDecAndEffect () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, UpdateTimeInfo c) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`3[T1,T2,T3].Invoke (T1 arg1, T2 arg2, T3 arg3) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.DoLateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalScheduler.LateUpdate (UpdateTimeInfo& info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at FM_MonoStaticWrap.MathUtil_Wrap+F_ReverseXYDele14.Invoke (UnityEngine.Vector2Int& arg0) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (UpdateTimeInfo info) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at System.Action`1[T].Invoke (T obj) <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 
+  at UniqueMonoEventListener.LateUpdate () <0x00000 + 0xffffffff> 0 in <00000000000000000000000000000000>:0 ",windows,null,Windows 11  (10.0.26100) 64bit,983652968619
+,14.169.96.10,1770954413,1770954413,632163810,,2026-02-13T10:46:53.2810340+07:00,17739e99-12d5-4901-bd51-3352cba48753,Error,5335,1.92.21.2641,VN,A31 của Hoài thu,82bffaeaa3a952c0,SM-A315N,1.92.20,"[DMG_ERR]:True|301|dmg:10078581838|10033|366007871|366007871|10033132  |map:654
+TeamInfo:7|0-gid:11,meta:10031atk:38574509|15818|0|5685|14940|0|157245154adjAtk:0|1-gid:12,meta:10043atk:37606800|17308|0|5685|14940|0|158905226adjAtk:0|2-gid:13,meta:10030atk:18745815|15818|0|5685|14940|0|76427363adjAtk:0|3-gid:14,meta:10033atk:85875368|17678|0|5685|14940|0|366007871adjAtk:0|4-gid:15,meta:10027atk:18622385|15818|0|5685|14940|0|75924287adjAtk:0|5-gid:16,meta:10046atk:47240586|15818|0|5685|14940|0|192566351adjAtk:0|6-gid:363,meta:840003atk:21260801|0|0|0|0|0|21260801adjAtk:0
+Other:",android,10586,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_vn,null,Android OS 12 / API-31 (SP1A.210812.016/A315NKSU1DVF1),1435032955225
+,14.169.96.10,1770954451,1770954451,393518104,,2026-02-13T10:47:30.3636020+07:00,17739e99-12d5-4901-bd51-3352cba48753,Error,5414,1.92.21.2641,VN,A31 của Hoài thu,82bffaeaa3a952c0,SM-A315N,1.92.20,"[DMG_ERR]:True|301|dmg:182324418251|10033|6621186711|6621186711|10033132  |map:656
+TeamInfo:7|0-gid:11,meta:10031atk:636224312|15818|0|5685|14940|0|2593146221adjAtk:0|1-gid:12,meta:10043atk:665243044|17308|0|5685|14940|0|2810542830adjAtk:0|2-gid:13,meta:10030atk:306853052|15818|0|5685|14940|0|1250694840adjAtk:0|3-gid:14,meta:10033atk:1553607040|17678|0|5685|14940|0|6621186711adjAtk:0|4-gid:15,meta:10027atk:304802615|15818|0|5685|14940|0|1242337669adjAtk:0|5-gid:16,meta:10046atk:779211142|15818|0|5685|14940|0|3175931943adjAtk:0|6-gid:443,meta:840003atk:368790558|0|0|0|0|0|368790558adjAtk:0
+Other:",android,10586,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_vn,null,Android OS 12 / API-31 (SP1A.210812.016/A315NKSU1DVF1),1435032955225
+,14.169.96.10,1770954500,1770954500,894086850,,2026-02-13T10:48:20.5588810+07:00,17739e99-12d5-4901-bd51-3352cba48753,Error,5507,1.92.21.2641,VN,A31 của Hoài thu,82bffaeaa3a952c0,SM-A315N,1.92.20,"[DMG_ERR]:True|301|dmg:189482667635|10031|47284479742|47284479742|10031001  |map:658
+TeamInfo:7|0-gid:11,meta:10031atk:10564469882|19818|0|5685|14940|0|47284479742adjAtk:0|1-gid:12,meta:10043atk:11867881581|21308|0|5685|14940|0|54886605027adjAtk:0|2-gid:13,meta:10030atk:5092932433|19818|0|5685|14940|0|22794972428adjAtk:0|3-gid:14,meta:10033atk:28212532792|21678|0|5685|14940|0|131521211872adjAtk:0|4-gid:15,meta:10027atk:5058870275|19818|0|5685|14940|0|22642517021adjAtk:0|5-gid:16,meta:10046atk:12938789796|19818|0|5685|14940|0|57911460813adjAtk:0|6-gid:523,meta:840003atk:6407255890|0|0|0|0|0|6407255890adjAtk:0
+Other:",android,10586,"  at System.Environment.get_StackTrace () [0x00000] in <e3f6a0eb949c4533aa282ed0ab4fd040>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Object context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at FibMatrix.Logger.Error (System.String message, System.Collections.Generic.Dictionary`2[TKey,TValue] context, FibMatrix.LogTargetType targetType) [0x00000] in <61ea137df6b24d2588f94914813774e2>:0 
+  at LoggerEx.RunTimeError (System.String tag, System.String msg) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightVerifyUitl.SendDamageError (System.String tag, System.String info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightDataCalculate.CalBulletDamage (FightModule.IFightEntity source, FightModule.FightItemEntity entitySource, FightModule.FightItemEntity target, FightModule.BulletVO bullet, EBulletCalculateEvent& eventFlag) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoFightDmg (FightModule.FightItemEntity fightItem) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.DoDecAndEffect () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletVO.Update (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightBulletSystem.Update (FightModule.FightBulletComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.BulletHolderSystem.OnUpdate (FightModule.BulletHolderComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.BulletUpdate (FightModule.FightLogicComponent comp, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicSystem+FightLogicSystemOnUpdate.OnUpdate (FightModule.FightItemEntity fightEntity, System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.DoOneLogicTick (System.Int32 deltaTime) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.UpdateDt (System.Int32 dt) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at FightModule.FightLogicFacade.Tick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.FightTick () [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at HomeMap.MapItemEntityFacade.Tick (System.Int32 a, System.Object b, Host.UpdateTimeInfo c) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+FrameLimitUpdator.UpdateProxyHandler (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler+UpdateInfoDelegateNode.CallUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.DoLateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalScheduler.LateUpdate (Host.UpdateTimeInfo& info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 
+  at GlobalMonobehaviourDispatcher.OnLateUpdateListener (Host.UpdateTimeInfo info) [0x00000] in <b1a63779a56745b19f6d8f271cb7128d>:0 ",googleplay_vn,null,Android OS 12 / API-31 (SP1A.210812.016/A315NKSU1DVF1),1435032955225
