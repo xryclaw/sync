@@ -1,0 +1,127 @@
+{
+  "project_name": "SLS 日志分析平台",
+  "status": "MVP Completed",
+  "roadmap": [
+    {
+      "phase": "Phase 1: 日志标注与规则管理",
+      "priority": "高",
+      "goal": "实现持续学习能力，让系统能够识别和分类日志事件",
+      "features": [
+        {
+          "name": "事件标签管理",
+          "description": "创建/编辑/删除标签，标签颜色自定义，标签分类管理",
+          "passes": false
+        },
+        {
+          "name": "规则引擎",
+          "description": "正则表达式匹配，关键字匹配，精确匹配，规则优先级设置，规则启用/禁用",
+          "passes": false
+        },
+        {
+          "name": "未识别事件统计",
+          "description": "自动发现新事件模式，按出现频率排序，批量标注支持",
+          "passes": false
+        },
+        {
+          "name": "日志自动标注",
+          "description": "上传时自动应用规则，历史日志批量重新标注，标注结果展示",
+          "passes": false
+        }
+      ],
+      "estimated_effort": "3-5 天",
+      "detailed_design": "docs/plans/2026-02-13-task11-log-labeling.md"
+    },
+    {
+      "phase": "Phase 2: 可视化时间线",
+      "priority": "中",
+      "goal": "提供直观的时间线视图，快速定位问题发生时间点",
+      "features": [
+        {
+          "name": "时间线图表",
+          "description": "横轴：时间，纵轴：事件类型/日志级别，支持缩放和拖拽",
+          "passes": false
+        },
+        {
+          "name": "事件标记",
+          "description": "Error 事件高亮显示，标注事件用不同颜色区分，点击事件跳转到详情",
+          "passes": false
+        },
+        {
+          "name": "时间段分析",
+          "description": "选择时间段查看统计，事件密度热力图，异常时间段自动识别",
+          "passes": false
+        }
+      ],
+      "estimated_effort": "2-3 天"
+    },
+    {
+      "phase": "Phase 3: 智能分析与推荐",
+      "priority": "中",
+      "goal": "利用规则引擎和历史数据，提供智能分析建议",
+      "features": [
+        {
+          "name": "异常模式检测",
+          "description": "识别异常频繁的事件序列，检测 Error 前的常见操作路径，异常时间段标记",
+          "passes": false
+        },
+        {
+          "name": "相似问题推荐",
+          "description": "根据当前日志推荐相似历史案例，显示相似度评分，快速跳转到历史记录",
+          "passes": false
+        },
+        {
+          "name": "统计报表",
+          "description": "事件类型分布饼图，日志级别统计，高频事件 Top 10，时间段活跃度曲线",
+          "passes": false
+        }
+      ],
+      "estimated_effort": "4-6 天"
+    },
+    {
+      "phase": "Phase 4: 多用户与权限管理",
+      "priority": "低",
+      "goal": "支持团队协作，不同用户管理各自的日志数据",
+      "features": [
+        {
+          "name": "用户系统",
+          "description": "用户注册/登录，密码加密存储，Session/JWT 认证",
+          "passes": false
+        },
+        {
+          "name": "权限管理",
+          "description": "管理员：全局配置、用户管理，普通用户：只能查看自己上传的日志，标签和规则共享机制",
+          "passes": false
+        },
+        {
+          "name": "数据隔离",
+          "description": "按用户隔离日志数据，共享规则库（可选），团队协作模式",
+          "passes": false
+        }
+      ],
+      "estimated_effort": "3-4 天"
+    },
+    {
+      "phase": "Phase 5: 性能优化与部署",
+      "priority": "中",
+      "goal": "提升系统性能，支持大规模日志数据",
+      "features": [
+        {
+          "name": "数据库优化",
+          "description": "添加索引（时间、uid、level），分页查询优化，定期清理旧数据",
+          "passes": false
+        },
+        {
+          "name": "前端优化",
+          "description": "虚拟滚动（大数据量表格），懒加载，请求防抖/节流",
+          "passes": false
+        },
+        {
+          "name": "部署方案",
+          "description": "Docker 容器化，Nginx 反向代理，PM2 进程管理，自动备份脚本",
+          "passes": false
+        }
+      ],
+      "estimated_effort": "2-3 天"
+    }
+  ]
+}
